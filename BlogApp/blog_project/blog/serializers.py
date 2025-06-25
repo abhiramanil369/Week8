@@ -7,9 +7,4 @@ class PostSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Post
-        fields = ['id','title','summary','content','author','created_at']
-
-    class LoginSerailizer(serializers.Serializer):
-        username = serializers.CharField()
-        password = serializers.CharField()
-        
+        fields = ['id', 'title', 'summary', 'content', 'author', 'created_at']
